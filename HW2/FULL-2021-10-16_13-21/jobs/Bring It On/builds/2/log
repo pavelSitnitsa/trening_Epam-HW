@@ -1,0 +1,22 @@
+Started by user [8mha:////4M/XRDAzcOy19byPd91os8Om0rpZq8dDT7jDhYOwFi5ZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL9gsSy1BwAwCv+y8AAAAA=[0mSitnitsa Pavel
+Running as SYSTEM
+Building in workspace C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Bring It On
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Bring It On\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.31.0.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 71518a34152cb6c6039a2443ced60af30a31f14c (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
+Commit message: "Merge pull request #16 from EvgeniyRozhenko/fix-pom-utf8"
+ > git.exe rev-list --no-walk 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
+[Bring It On] $ cmd.exe /C "C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\3.8.3\bin\mvn.cmd -f Java/prom.xml test && exit %%ERRORLEVEL%%"
+POM file "Java/prom.xml" specified the -f/--file command-line argument does not exist 
+Build step 'Вызвать цели Maven верхнего уровня  ' marked build as failure
+Finished: FAILURE

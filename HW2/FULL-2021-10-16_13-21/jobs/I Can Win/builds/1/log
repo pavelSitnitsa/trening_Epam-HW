@@ -1,0 +1,41 @@
+Started by user [8mha:////4M/XRDAzcOy19byPd91os8Om0rpZq8dDT7jDhYOwFi5ZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL9gsSy1BwAwCv+y8AAAAA=[0mSitnitsa Pavel
+Running as SYSTEM
+Building in workspace C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\I Can Win
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vitalliuss/helloci.git
+ > git.exe init C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\I Can Win # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.31.0.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ERROR: Error cloning remote repo 'origin'
+hudson.plugins.git.GitException: Command "git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: remote: Enumerating objects: 360, done.        
+remote: Counting objects:  20% (1/5)        remote: Counting objects:  40% (2/5)        remote: Counting objects:  60% (3/5)        remote: Counting objects:  80% (4/5)        remote: Counting objects: 100% (5/5)        remote: Counting objects: 100% (5/5), done.        
+remote: Compressing objects:  20% (1/5)        remote: Compressing objects:  40% (2/5)        remote: Compressing objects:  60% (3/5)        remote: Compressing objects:  80% (4/5)        remote: Compressing objects: 100% (5/5)        remote: Compressing objects: 100% (5/5), done.        
+Receiving objects:   0% (1/360)Receiving objects:   1% (4/360)Receiving objects:   2% (8/360)Receiving objects:   3% (11/360)Receiving objects:   4% (15/360)Receiving objects:   5% (18/360)Receiving objects:   6% (22/360)Receiving objects:   7% (26/360)Receiving objects:   8% (29/360)Receiving objects:   9% (33/360)Receiving objects:  10% (36/360)Receiving objects:  11% (40/360)Receiving objects:  11% (40/360), 12.00 KiB | 0 bytes/sReceiving objects:  12% (44/360), 12.00 KiB | 0 bytes/sReceiving objects:  13% (47/360), 12.00 KiB | 0 bytes/sReceiving objects:  14% (51/360), 12.00 KiB | 0 bytes/sReceiving objects:  15% (54/360), 12.00 KiB | 0 bytes/sReceiving objects:  16% (58/360), 12.00 KiB | 0 bytes/sReceiving objects:  17% (62/360), 12.00 KiB | 0 bytes/sReceiving objects:  18% (65/360), 12.00 KiB | 0 bytes/sReceiving objects:  19% (69/360), 12.00 KiB | 0 bytes/sReceiving objects:  20% (72/360), 12.00 KiB | 0 bytes/sReceiving objects:  21% (76/360), 12.00 KiB | 0 bytes/sReceiving objects:  22% (80/360), 12.00 KiB | 0 bytes/sReceiving objects:  23% (83/360), 12.00 KiB | 0 bytes/sReceiving objects:  24% (87/360), 12.00 KiB | 0 bytes/sReceiving objects:  25% (90/360), 12.00 KiB | 0 bytes/sReceiving objects:  25% (91/360), 12.00 KiB | 0 bytes/sReceiving objects:  26% (94/360), 12.00 KiB | 0 bytes/sReceiving objects:  27% (98/360), 12.00 KiB | 0 bytes/sReceiving objects:  28% (101/360), 12.00 KiB | 0 bytes/sReceiving objects:  29% (105/360), 12.00 KiB | 0 bytes/sReceiving objects:  30% (108/360), 12.00 KiB | 0 bytes/sReceiving objects:  31% (112/360), 12.00 KiB | 0 bytes/sReceiving objects:  32% (116/360), 12.00 KiB | 0 bytes/sReceiving objects:  33% (119/360), 12.00 KiB | 0 bytes/sReceiving objects:  34% (123/360), 12.00 KiB | 0 bytes/sReceiving objects:  34% (125/360), 36.00 KiB | 0 bytes/sReceiving objects:  34% (125/360), 44.00 KiB | 0 bytes/sReceiving objects:  34% (125/360), 52.00 KiB | 0 bytes/sReceiving objects:  34% (125/360), 60.00 KiB | 0 bytes/sReceiving objects:  34% (125/360), 76.00 KiB | 0 bytes/sReceiving objects:  35% (126/360), 76.00 KiB | 0 bytes/sReceiving objects:  36% (130/360), 76.00 KiB | 0 bytes/sReceiving objects:  37% (134/360), 76.00 KiB | 0 bytes/sReceiving objects:  38% (137/360), 76.00 KiB | 0 bytes/sReceiving objects:  39% (141/360), 76.00 KiB | 0 bytes/sReceiving objects:  40% (144/360), 76.00 KiB | 0 bytes/sReceiving objects:  41% (148/360), 76.00 KiB | 0 bytes/sReceiving objects:  42% (152/360), 76.00 KiB | 0 bytes/sReceiving objects:  43% (155/360), 76.00 KiB | 0 bytes/sReceiving objects:  44% (159/360), 76.00 KiB | 0 bytes/sReceiving objects:  45% (162/360), 76.00 KiB | 0 bytes/sReceiving objects:  46% (166/360), 76.00 KiB | 0 bytes/sReceiving objects:  47% (170/360), 76.00 KiB | 0 bytes/sReceiving objects:  48% (173/360), 76.00 KiB | 0 bytes/sReceiving objects:  49% (177/360), 76.00 KiB | 0 bytes/sReceiving objects:  50% (180/360), 76.00 KiB | 0 bytes/sReceiving objects:  51% (184/360), 76.00 KiB | 0 bytes/sReceiving objects:  52% (188/360), 76.00 KiB | 0 bytes/sReceiving objects:  53% (191/360), 76.00 KiB | 0 bytes/sReceiving objects:  54% (195/360), 76.00 KiB | 0 bytes/sReceiving objects:  55% (198/360), 76.00 KiB | 0 bytes/sReceiving objects:  56% (202/360), 76.00 KiB | 0 bytes/sReceiving objects:  57% (206/360), 76.00 KiB | 0 bytes/sReceiving objects:  58% (209/360), 76.00 KiB | 0 bytes/sReceiving objects:  59% (213/360), 76.00 KiB | 0 bytes/sReceiving objects:  60% (216/360), 76.00 KiB | 0 bytes/sReceiving objects:  61% (220/360), 76.00 KiB | 0 bytes/sReceiving objects:  62% (224/360), 76.00 KiB | 0 bytes/sReceiving objects:  63% (227/360), 76.00 KiB | 0 bytes/sReceiving objects:  64% (231/360), 76.00 KiB | 0 bytes/sReceiving objects:  65% (234/360), 76.00 KiB | 0 bytes/sReceiving objects:  66% (238/360), 76.00 KiB | 0 bytes/sReceiving objects:  67% (242/360), 76.00 KiB | 0 bytes/sReceiving objects:  68% (245/360), 76.00 KiB | 0 bytes/sReceiving objects:  69% (249/360), 76.00 KiB | 0 bytes/sReceiving objects:  70% (252/360), 76.00 KiB | 0 bytes/sReceiving objects:  71% (256/360), 76.00 KiB | 0 bytes/sReceiving objects:  72% (260/360), 76.00 KiB | 0 bytes/sReceiving objects:  73% (263/360), 76.00 KiB | 0 bytes/sReceiving objects:  74% (267/360), 76.00 KiB | 0 bytes/sReceiving objects:  75% (270/360), 76.00 KiB | 0 bytes/sReceiving objects:  76% (274/360), 76.00 KiB | 0 bytes/sReceiving objects:  77% (278/360), 76.00 KiB | 0 bytes/sReceiving objects:  78% (281/360), 76.00 KiB | 0 bytes/serror: 3294 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2681)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2102)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$500(CliGitAPIImpl.java:86)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:624)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:853)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1224)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1302)
+	at hudson.scm.SCM.checkout(SCM.java:505)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1213)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:637)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:509)
+	at hudson.model.Run.execute(Run.java:1888)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:432)
+ERROR: Error cloning remote repo 'origin'
+Finished: FAILURE

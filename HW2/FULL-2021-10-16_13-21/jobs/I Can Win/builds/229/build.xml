@@ -1,0 +1,27 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+          <int>143</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>243</queueId>
+  <timestamp>1634369510789</timestamp>
+  <startTime>1634369510802</startTime>
+  <result>FAILURE</result>
+  <duration>720</duration>
+  <charset>windows-1251</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\I Can Win</workspace>
+  <hudsonVersion>2.315</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

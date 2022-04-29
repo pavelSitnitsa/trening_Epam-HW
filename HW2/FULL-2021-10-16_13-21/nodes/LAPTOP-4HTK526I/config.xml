@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>LAPTOP-4HTK526I</name>
+  <description></description>
+  <remoteFS>C:\data\slave</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>EXCLUSIVE</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.slaves.JNLPLauncher">
+    <workDirSettings>
+      <disabled>false</disabled>
+      <internalDir>remoting</internalDir>
+      <failIfWorkDirIsMissing>false</failIfWorkDirIsMissing>
+    </workDirSettings>
+    <webSocket>false</webSocket>
+  </launcher>
+  <label>win10 x64 chrome ff</label>
+  <nodeProperties>
+    <hudson.tools.ToolLocationNodeProperty>
+      <locations>
+        <hudson.tools.ToolLocationNodeProperty_-ToolLocation>
+          <type>hudson.plugins.git.GitTool$DescriptorImpl</type>
+          <name>2.31.0</name>
+          <home>C:\Program Files\Git\cmd\git.exe</home>
+        </hudson.tools.ToolLocationNodeProperty_-ToolLocation>
+      </locations>
+    </hudson.tools.ToolLocationNodeProperty>
+  </nodeProperties>
+</slave>
